@@ -13,8 +13,11 @@
 
     $breadCount = $_POST["bread"];
     $cookiesCount = $_POST["cookies"];
+    if (!$breadCount && !$cookiesCount) {
+        echo '<a href="index.php">Go back to homepage</a>' . "<br>";
+        die("Error:No data entered.");
+    }
     $amountToPay = 2.23 * $breadCount + 1.20 * $cookiesCount;
-
 
     echo <<<END
 
