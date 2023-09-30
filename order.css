@@ -1,0 +1,19 @@
+table,
+th,
+td {
+  border-collapse: collapse;
+  font-size: 22px;
+  padding: 0 10px;
+}
+.result {
+  color: crimson;
+  width: 300px;
+}
+.table-border {
+  border: 2px solid black;
+}
+.tRow {
+  background-color: lightgray;
+  height: 40px;
+  text-align: center;
+}

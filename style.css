@@ -1,0 +1,25 @@
+.body {
+  max-width: 1000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: whitesmoke;
+}
+
+.buckeryName {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: #008080;
+}
+
+.label {
+  display: inline-block;
+  width: 650px;
+  font-size: 22px;
+}
+.input {
+  float: right;
+  font-size: 22px;
+}
