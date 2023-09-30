@@ -36,6 +36,7 @@
 
 END;
     ?>
+    <a href="index.php">Go back to homepage</a>
 </body>
 
 </html>
